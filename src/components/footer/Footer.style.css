@@ -1,0 +1,16 @@
+.page-footer{
+    width: 100%;
+    height: 112px;
+    background-color: black;
+}
+
+.footer-container {
+    max-width: 1180px;
+}
+
+.footer-copyright {
+font-family: 'Roboto';
+font-size: 20px;
+line-height: 23px;
+color: white;
+}
