@@ -78,9 +78,9 @@ body {
   color: var(--basic-white);
 }
 
-.content-img {
-  max-width: 400px;
-  max-height: 400px;
+.img__avatar {
+  max-width: 20rem;
+  max-height: 20rem;
 }
 
 .button {
@@ -123,6 +123,24 @@ body {
 @media (max-width: 767px) {
   html {
     font-size: 12px;
+  }
+  .container {
+    margin: 1rem 0;
+  }
+  .main-content {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-text {
+    text-align: center;
   }
 }
 
