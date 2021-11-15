@@ -24,7 +24,7 @@ export const MainPage = () => {
           <div className="content-img">
             <img
               className="img__avatar"
-              src="../img/pict--athletic-guy-people.png"
+              src="https://sun9-41.userapi.com/impg/RrD-M5C1YmICMH9rGRUsZIR7c4InHIBOXev3kw/zo6lD_bwPSc.jpg?size=960x1280&quality=96&sign=7245231d179e47881d1539bfbff6ae96&type=album"
               alt="avatar"
             />
           </div>

@@ -16,6 +16,9 @@ export const Header = () => {
           </NavLink>
         </div>
         <div className="header-navigation">
+          {/* <button className="nav__toggle">
+            <span className="visually-hidden">Меню</span>
+          </button> */}
           <Navbar />
         </div>
       </div>
