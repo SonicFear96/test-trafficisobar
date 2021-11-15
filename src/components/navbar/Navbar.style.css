@@ -1,0 +1,31 @@
+.main-nav {
+  height: 100%;
+}
+
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__item {
+  margin-right: 26px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__item a {
+  color: var(--basic-white);
+  text-decoration: none;
+}
+
+.nav__item a:hover,
+.active__link {
+  border-bottom: 1px solid var(--bacis-orange);
+}

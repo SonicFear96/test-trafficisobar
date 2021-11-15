@@ -1,3 +1,47 @@
+:root {
+  --bacis-orange: #f44a1e;
+  --basic-white: #ffffff;
+}
+html {
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.page-main {
+  min-height: calc(100vh - 224px);
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--bacis-orange);
+}
+.title--loader {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--basic-white);
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 body {
   background-color: #111111;
 }

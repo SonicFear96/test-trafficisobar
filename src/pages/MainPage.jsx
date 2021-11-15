@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export const MainPage = () => {
-    return (
-        <div>
-            <p>it's main page</p>
-        </div>
-    )
-}
+  return (
+    <main className="page-main">
+      <div className="container">
+        <h2 className="main-title">Обо мне</h2>
+      </div>
+    </main>
+  );
+};
