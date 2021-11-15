@@ -16,19 +16,22 @@ export const ExamplePage = () => {
     getData();
   }, []);
   return (
-    <main className="page-main">
+    <main className="page-main main__container">
       <div className="container">
         <h2 className="main-title">Пример</h2>
-        <ul className="item_list">
+        <section className="content__list-container">
+          <h3 className="content-title">Картинка с котом</h3>
           {item ? (
-            <li>
-              <img src={item} alt="" width="20px" height="20px" />
-              <button onClick={getData}>нажми меня</button>
-            </li>
+            <div className="content__item">
+              <img className="item__img" src={item} alt="cata data" />
+              <button className="button item__button" onClick={getData}>
+                загрузить другую
+              </button>
+            </div>
           ) : (
             <p className="title--loader">кошки загружаются...</p>
           )}
-        </ul>
+        </section>
       </div>
     </main>
   );
