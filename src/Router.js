@@ -9,7 +9,7 @@ import { Header } from "./components/header/Header";
 export const Router = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/test-trafficisobar">
         <Header />
         <Switch>
           <Route path="/" exact component={MainPage} />

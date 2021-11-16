@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { Navbar } from "../navbar/Navbar";
 import "./Header.style.css";
-// import logo from "../../public/img/logoMain.svg"
 
 
 export const Header = () => {
@@ -12,7 +11,7 @@ export const Header = () => {
           <NavLink to="/">
             <img
               className="header-logo__img"
-              src={process.env.PUBLIC_URL + '../img/logoMain.svg'}
+              src="../../img/logoMain.svg"
               alt="logo"
             />
           </NavLink>
