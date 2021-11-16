@@ -16,3 +16,9 @@
   color: var(--basic-white);
   font-size: 1rem;
 }
+
+@media (max-width: 1179px) {
+  .footer-container {
+    padding: 0 1rem;
+  }
+}

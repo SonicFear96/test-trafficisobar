@@ -15,3 +15,15 @@
 .header-navigation {
   height: 100%;
 }
+
+@media (max-width: 767px) {
+  .header-logo__img {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 1179px) {
+  .header-container {
+    padding: 0 1rem;
+  }
+}

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export const MainPage = () => {
   return (
     <main className="page-main main__container">
-      <div className="container">
+      <div className="container container-main">
         <h2 className="main-title">Обо мне</h2>
         <section className="main-content content__container">
           <div className="content-info">
