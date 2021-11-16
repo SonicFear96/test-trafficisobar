@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 import { MainPage } from "./pages/MainPage";
 import { ExamplePage } from "./pages/ExamplePage";
 import "./style.css";
@@ -12,8 +12,7 @@ export const Router = () => {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Redirect exact from="/" to="/main" />
-          <Route path="/main" exact component={MainPage} />
+          <Route path="/" exact component={MainPage} />
           <Route path="/example" exact component={ExamplePage} />
         </Switch>
         <Footer />

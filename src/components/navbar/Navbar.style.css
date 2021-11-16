@@ -53,7 +53,6 @@
   text-decoration: none;
 }
 
-.nav__item a:hover,
-.active__link {
+.nav__item a:hover {
   border-bottom: 1px solid var(--bacis-orange);
 }
